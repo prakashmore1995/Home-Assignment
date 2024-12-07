@@ -1,0 +1,55 @@
+
+how you test in an agile framework
+
+Include general testing concepts and the process you think should
+be followed by the QA team.
+
+When should testcases be written, and who should see them?
+
+Here’s the corrected and error-free version of your text:
+
+---
+
+1. Before testing, we conduct business flow and requirement grooming sessions to decide which testing principles to consider, such as defect clustering and the pesticide paradox.
+
+2. The testing types will depend on the estimated and available time:
+   - Functional Testing
+   - Automation Testing
+   - Manual Testing
+
+3. After the grooming session ends, we proceed with creating testing artifacts, such as:
+   - Test Plan: Documents the testing approach and scope.
+   - Test Cases: Defines test scenarios, inputs, steps, and expected results.
+
+4. Team Lead Review: The team lead will review the test cases and provide suggestions for any alterations or additions. After the necessary changes are made, a final review of the test cases is conducted. Once the build or patch is deployed, testing execution begins.
+
+=============================================================================
+
+How you perform regression testing  - 
+
+POS Application -  We Perform the regression testing only for the positive cases and its done while we releaseing any new application on Playstore(Android app) and on App store( IOS App ) at that time we do regression testing for complete application in UAT envt for all functionalities of application that we provide  in Application 
+ 
+Webportal - We do regression testing while major kind of code changes at backend or any payment or report related fuctionality changes are present into new release
+ 
+==============================================================================
+ 
+- Include how you execute testcases and report test results.
+
+Test cases will be executed based on the assigned priority. We are considering P1 as the highest priority and P3 as the lowest. Therefore, P1 test cases will be executed first.  
+
+For reporting and logging, we use our in-house tool called the **PM Tool**, an internal application where test results are logged.  
+
+- UI-related results: Screenshots, test observations, steps, and descriptions are logged.  
+- Functional flow-related results: Screen recordings are captured and shared, along with API requests/responses, payload details, and associated logs. Steps and descriptions are also documented in the same tool.  
+
+=================================================================================
+
+- How do you prioritise testcases?
+
+The test cases are properties on the basis of functionality and issues are impacting the application.
+Ex. 
+1 .New feature additions in the existing application this will be on P1 category
+2. Alterations and flow enhancement of existing application or feature will be on P2 category
+3. UI enhancement and New Labeling - Will on Less priority - Which is P3 category
+
+And before this we are refering the below points as well- We prioritise the issue which we are received across from Onsite/ Production first 
